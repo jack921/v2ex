@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/write">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/newfragment_bg"/>
+    
+	<TextView
+	    android:id="@+id/newitem_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	    android:background="@color/newitemtitle"
+	    android:text="华软换校门快换完了"/>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/newitemuser">
+
+	    <com.android.volley.toolbox.NetworkImageView  
+	        android:id="@+id/newitem_image"
+	        android:contentDescription="@null"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerInParent="true"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginTop="5dp"
+	        android:src="@drawable/ic_launcher" />
+
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_toRightOf="@+id/newitem_image"
+	        android:orientation="vertical">
+	        
+	        <TextView 
+	            android:id="@+id/newitem_name"
+	            android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12sp"
+	            android:text="jack"/>
+	        
+	       <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	       <TextView 
+	            android:id="@+id/newitem_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="3dp"
+	            android:textSize="8sp"
+	            android:text="一天前"/>
+	            
+	       <TextView 
+	            android:id="@+id/newitem_repley"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dp"
+	            android:textSize="8sp"
+	            android:text="15回复"/>	            
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:id="@+id/newitem_node"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:background="@color/newitem_textbg"
+	        android:layout_centerInParent="true"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="3dp"
+	        android:paddingBottom="3dp"
+	        android:layout_marginRight="5dp"
+	        android:text="问与答"
+	        android:textColor="@color/write"
+	        android:textSize="15sp" />
+	</RelativeLayout>
+    
+	<TextView
+	    android:id="@+id/newitem_content"
+	 	android:layout_width="match_parent"
+	 	android:layout_height="wrap_content"   
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+	    android:maxLines="10"
+	    android:ellipsize="end"
+	    android:background="@color/newContent_bg"
+	    android:text="告诉大家一个消息。貌似新校门要刷卡进出，SO本校的进出是肯定要刷卡了，外面进来的要拿身份证登记了，SO````````
+	         利：
+                 防止外部小偷进来
+	       防止舍友带旧同学或朋友来宿舍非法居住
+                 弊：
+	      可以查到学生是不归！（开房的收敛点啊）
+	      朋友来学校不能在我宿舍过夜了（楼主不曾带过朋友居住）
+	      出宿舍忘记带饭卡，到了校门口又要走回去。（如果像实验室一样有指纹识别多好？望冠军哥给力"/>
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="15dp"
+	    android:background="@color/newfragment_bg"/>
+	
+</LinearLayout>

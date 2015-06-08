@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/linearuser"
+	    android:layout_marginBottom="30dp"
+	    android:gravity="center"
+	    android:textSize="40sp"
+	    android:text="@string/loginlogo"/>
+    
+    <LinearLayout 
+        android:id="@+id/linearuser"
+        android:layout_above="@+id/linearpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"/>
+        <EditText
+            android:id="@+id/login_user"
+            android:hint="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/linearpass"
+        android:layout_above="@+id/login_bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"/>
+        <EditText
+            android:id="@+id/login_pass"
+            android:hint="@null"
+            android:layout_width="match_parent"
+            android:password="true"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>    
+   
+	<Button
+        android:id="@+id/login_bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:text="@string/login"/>
+    
+</RelativeLayout>

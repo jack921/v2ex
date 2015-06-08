@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical" >
+    
+	 <TextView
+         android:id="@+id/content_title"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/newitemtitle"
+         android:paddingBottom="10dp"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp"
+         android:paddingTop="10dp"
+         android:text="华软换校门快换完了"
+         android:textSize="20sp" />
+
+    <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/newitemuser" >
+
+        <ImageView
+           android:id="@+id/content_image"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_centerInParent="true"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="8dp"
+           android:layout_marginTop="5dp"
+           android:contentDescription="@null"
+           android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/content_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/content_image"
+                    android:text="jack"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/content_name"
+                    android:layout_toRightOf="@+id/content_image" 
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/content_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:text="一天前"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:id="@+id/content_repley"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="15回复"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/content_node"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/newitem_textbg"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="3dp"
+                    android:text="问与答"
+                    android:textColor="@color/write"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/content_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@color/write"
+                android:paddingEnd="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="告诉大家一个消息。貌似新校门要刷卡进出，SO本校的进出是肯定要刷卡了，外面进来的要拿身份证登记了，SO````````
+	           	利：
+                                        防止外部小偷进来
+	      		 防止舍友带旧同学或朋友来宿舍非法居住
+                                        弊：
+	      	         可以查到学生是不归！（开房的收敛点啊）
+	      	         朋友来学校不能在我宿舍过夜了（楼主不曾带过朋友居住）
+	     	         出宿舍忘记带饭卡，到了校门口又要走回去。（如果像实验室一样有指纹识别多好？望冠军哥给力"
+                android:textSize="18sp" />
+ 
+</LinearLayout>

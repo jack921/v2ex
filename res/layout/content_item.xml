@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:orientation="vertical" >
+    
+    <TextView
+    	android:layout_width="match_parent" 
+    	android:layout_height="10dp"
+    	android:background="@color/content_bg"/>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/reply_bg"
+	    android:orientation="horizontal">
+	    
+	 <com.android.volley.toolbox.NetworkImageView
+	    android:id="@+id/content_reply_image"
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:layout_marginStart="5dp"
+	    android:layout_marginEnd="8dp"
+	    android:layout_marginTop="3dp"
+	    android:layout_marginBottom="3dp"
+	    android:contentDescription="@null"
+	    android:layout_gravity="center_vertical"
+	    android:src="@drawable/ic_launcher"/>
+	 
+	 <LinearLayout 
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center_vertical"
+	     android:orientation="vertical">
+	     
+	     <TextView 
+	         android:id="@+id/content_reply_name"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="jack"/>
+	     
+	     <TextView
+	         android:id="@+id/content_reply_time"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:textSize="7sp"
+	         android:text="一天前"/>
+	     
+	 </LinearLayout>
+	</LinearLayout>
+    
+    <TextView
+        android:id="@+id/content_reply_content" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/newContent_bg"
+        android:autoLink="all"
+        android:text="有点庆幸我不用刷卡了，像小学生，会不会还向家长发短信的？？？"/>
+    
+   <TextView
+        android:layout_width="match_parent" 
+    	android:layout_height="10dp"
+    	android:background="@color/content_bg"/>
+   
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.jack.v2ex" >
+    
+    <item
+        android:id="@+id/addtopic"
+        android:icon="@drawable/app_panel_add_icon"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="RtlCompat" severity="ignore" />
+    <issue id="RtlHardcoded" severity="ignore" />
+    <issue id="SmallSp">
+        <ignore path="res/layout/content_header.xml" />
+        <ignore path="res/layout/content_item.xml" />
+        <ignore path="res/layout/content_show.xml" />
+        <ignore path="res/layout/newfragment_liem.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/newfragment_liem.xml" />
+    </issue>
+</lint>

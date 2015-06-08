@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jack.v2ex.MainActivity" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	
+   <android.support.v4.widget.DrawerLayout
+    android:id="@+id/mainactivity_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout 
+        android:id="@+id/mainActivity_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout 
+         android:id="@+id/menu_linearlayout" 
+         android:layout_width="220dp"
+         android:layout_height="match_parent"
+         android:layout_gravity="start"
+         android:orientation="vertical">  
+           
+     <RelativeLayout 
+         android:id="@+id/activity_main_user"
+         android:layout_width="220dp"
+         android:layout_height="70dp"
+         android:orientation="horizontal"
+         android:background="@color/write">
+     	
+          <com.android.volley.toolbox.NetworkImageView   
+              android:id="@+id/mainactivity_userimage"
+              android:src="@drawable/ic_insert_image"
+              android:layout_centerInParent="true"
+              android:layout_alignParentStart="true"
+              android:contentDescription="@null"
+              android:paddingLeft="10dp"
+              android:layout_width="50dp"
+              android:layout_height="50dp"/>		        
+          
+          <TextView
+              android:id="@+id/mainactivity_username"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+               android:layout_marginLeft="20dp"
+              android:layout_toRightOf="@+id/mainactivity_userimage"
+              android:textSize="20sp"
+              android:text="谢汉杰"/> 
+                
+      </RelativeLayout>             
+     
+     <TextView
+         android:layout_width="220dp"
+         android:layout_height="0.5dp"
+         android:contentDescription="@null"
+         android:background="@color/driver"/>
+     
+      <ListView 
+          android:id="@+id/mainactivity_list"
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:divider="#000000"
+          android:dividerHeight="0dp"
+          android:background="@color/write"/>
+         
+     
+      <TextView
+          android:layout_width="220dp"
+          android:layout_height="0.5dp"
+          android:contentDescription="@null"
+          android:background="@color/driver"/>
+      
+      
+     <TextView 
+          android:id="@+id/main_setting" 
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:textSize="20sp"
+          android:paddingTop="10dp"
+          android:paddingLeft="15dp"
+          android:background="@color/write"
+          android:text="@string/setting"/>
+      
+     </LinearLayout>
+    
+</android.support.v4.widget.DrawerLayout>  
+</LinearLayout>
+

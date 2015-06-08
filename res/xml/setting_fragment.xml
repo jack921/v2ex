@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory
+        android:title="@string/userlogin"
+        android:key="user">
+        
+        <PreferenceScreen
+	        android:key="login"
+	        android:title="@string/login">
+	    </PreferenceScreen>
+        
+        <PreferenceScreen 
+            android:key="updateuser"
+            android:title="@string/updateuserinfo">
+        </PreferenceScreen>
+        
+        
+    </PreferenceCategory>
+   
+	<PreferenceCategory
+	    android:title="@string/more">
+	    
+	    <Preference
+	        android:title="@string/aboutv2ex"
+	        android:summary="@string/aboutinfo"/>
+	    
+	    <Preference 
+	        android:title="@string/author"
+	        android:summary="@string/authorname"/>
+	    
+	</PreferenceCategory>   
+    
+    
+	    
+	    
+</PreferenceScreen>

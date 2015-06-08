@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical" >
+      
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/allnode_tilte">
+	
+	<TextView 
+	    android:id="@+id/node_item_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+	    android:textSize="18sp"
+	    android:layout_alignParentLeft="true"
+	    android:text="linux"/>
+	    
+	    <ImageView 
+	        android:id="@+id/node_item_remove"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerInParent="true"
+	        android:contentDescription="@null"
+	        android:src="@drawable/umeng_update_close_bg_tap"/>
+	    
+	    <ImageView 
+	        android:id="@+id/node_item_add"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_centerInParent="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp"
+	        android:contentDescription="@null"
+	        android:src="@drawable/btn_add_on_card_before"/>
+	</RelativeLayout>
+    
+	<TextView
+	    android:id="@+id/node_item_content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/allnode_content"
+	    android:textSize="13sp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+	    android:text="Linux是一套免费使用和自由传播的类Unix操作系统,
+	        是一个基于POSIX和UNIX的多用户、多任务、支持多线程和多CPU的操作系统."/>
+	
+</LinearLayout>

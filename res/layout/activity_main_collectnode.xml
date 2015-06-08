@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/collect_layout"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	 android:contentDescription="@null">
+    
+    <ListView
+	   android:id="@+id/collectlist"
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent"
+	   android:contentDescription="@null"/>
+        
+    </uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout>
+   
+    <TextView 
+        android:id="@+id/collect_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/notCollectNode"/>
+    
+	<ProgressBar 
+	    android:id="@+id/collect_progressbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"/>
+	
+</RelativeLayout>

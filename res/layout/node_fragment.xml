@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/newfragment_bg">
+    
+ <uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/node_fragment_layout"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent">
+    
+	<ListView 
+	    android:id="@+id/node_fragment_list" 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:divider="@color/newfragment_bg"
+        android:dividerHeight="0dp"/>   
+
+  </uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout>
+
+</LinearLayout>
+

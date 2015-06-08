@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="write">#FFFFFF</color> 
+    <color name="driver">#FFCCCC</color> 
+    <color name="userMessageBg">#FFCCCC</color>
+    <color name="userActionColor">#9933FF</color>
+    <color name="actionBarColor">#00ff66</color>
+    <color name="checkBoxBg">#FFCCCC</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="newfragment_bg">#FFFFFF</color>
+    <color name="newitem_textbg">#33FF99</color>
+    <color name="newitemtitle">#FFFAF0</color>
+    <color name="newitemuser">#99FFFF</color>
+    <color name="content_bg">#FFFFFF</color>
+    <color name="reply_bg">#FFF0F5</color>
+    <color name="allnode_bg">#7FFFD4</color>
+    <color name="allnode_tilte">#97FFFF</color>
+    <color name="allnode_content">#BFEFFF</color>
+    <color name="user_message_bg">#FFFAFA</color>
+    <color name="newContent_bg">#F5F5F5</color>
+    
+</resources>
