@@ -41,13 +41,16 @@ public class SettingFragment extends PreferenceFragment{
 	
 	@Override
 	public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,Preference preference) {
-		switch(preference.getKey()){
-		case "login":
-			startLogin();
-		break;
-		case "updateuser":
-			updateUserInfo();
-		break;	
+		if(preference.getKey()!=null){
+			switch(preference.getKey()){
+			case "login":
+				startLogin();
+			break;
+			case "updateuser":
+				updateUserInfo();
+			break;	
+			}
+			return true;
 		}
 		return true;
 	}

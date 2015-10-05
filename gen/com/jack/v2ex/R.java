@@ -15,8 +15,6 @@ public final class R {
         public static final int abc_slide_in_top=0x7f040003;
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
-        public static final int fade_in=0x7f040006;
-        public static final int fade_out=0x7f040007;
     }
     public static final class array {
         public static final int mainactivity_list=0x7f0d0000;
@@ -25,7 +23,7 @@ public final class R {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int SwipeBackLayoutStyle=0x7f010092;
+        public static final int SwipeBackLayoutStyle=0x7f010076;
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -308,7 +306,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawSelectorOnTop=0x7f01008f;
+        public static final int drawSelectorOnTop=0x7f010073;
         /**  ListPopupWindow comaptibility 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -337,7 +335,7 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>3</td><td></td></tr>
 </table>
          */
-        public static final int edge_flag=0x7f01008b;
+        public static final int edge_flag=0x7f01006f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -347,7 +345,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int edge_size=0x7f01008a;
+        public static final int edge_size=0x7f01006e;
         /**  The drawable to show in the button for expanding the activities overflow popup.
              <strong>Note:</strong> Clients would like to set this drawable
              as a clue about the action the chosen activity will perform. For
@@ -361,7 +359,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int header=0x7f010093;
+        public static final int header=0x7f010077;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -371,7 +369,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int headerHeight=0x7f010094;
+        public static final int headerHeight=0x7f010078;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -381,7 +379,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int headerVisibleHeight=0x7f010095;
+        public static final int headerVisibleHeight=0x7f010079;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -449,7 +447,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemMargin=0x7f010091;
+        public static final int itemMargin=0x7f010075;
         /**  Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -551,7 +549,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int numColumns=0x7f010090;
+        public static final int numColumns=0x7f010074;
         /**  Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -623,87 +621,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int prompt=0x7f010051;
-        /**  A drawable to use as the background of the Header View 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderBackground=0x7f010070;
-        /**  The height of the Header View 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-         */
-        public static final int ptrHeaderHeight=0x7f010071;
-        /**  The attribute to set in your Application/Activity theme to reference your custom theme 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrHeaderStyle=0x7f01006f;
-        /**  The Text Appearance of the Header View's Title text 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrHeaderTitleTextAppearance=0x7f010072;
-        /**  The color that the Progress Bar should be tinted with 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrProgressBarColor=0x7f010073;
-        /**  The height of the Progress Bar 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-         */
-        public static final int ptrProgressBarHeight=0x7f010075;
-        /**  The style of the Progress Bar 
-         <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>inside</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>outside</code></td><td>0x1</td><td></td></tr>
-</table>
-         */
-        public static final int ptrProgressBarStyle=0x7f010074;
-        /**  Text to show to prompt the user is pull (or keep pulling) 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int ptrPullText=0x7f010076;
-        /**  Text to show to tell the user that a refresh is currently in progress 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int ptrRefreshingText=0x7f010077;
-        /**  Text to show to tell the user has scrolled enough to refresh 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int ptrReleaseText=0x7f010078;
-        /** indeterminate progressbar style
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrSmoothProgressBarStyle=0x7f010079;
-        /**  The class to use as a View's View Delegate. Can be relative path from app's package name 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-         */
-        public static final int ptrViewDelegateClass=0x7f01006e;
         /**  An optional query hint string to be displayed in the empty query field. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -784,15 +701,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int shadow_bottom=0x7f01008e;
+        public static final int shadow_bottom=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int shadow_left=0x7f01008c;
+        public static final int shadow_left=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int shadow_right=0x7f01008d;
+        public static final int shadow_right=0x7f010071;
         /**  How this item should display in the Action Bar, if present. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -831,132 +748,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int showDividers=0x7f010055;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int spbStyle=0x7f01007a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int spb_background=0x7f010087;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_color=0x7f01007b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int spb_colors=0x7f010085;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_generate_background_with_colors=0x7f010088;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_gradients=0x7f010089;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>spb_interpolator_accelerate</code></td><td>0</td><td></td></tr>
-<tr><td><code>spb_interpolator_linear</code></td><td>1</td><td></td></tr>
-<tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
-<tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
-</table>
-         */
-        public static final int spb_interpolator=0x7f010082;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_mirror_mode=0x7f010084;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_progressiveStart_activated=0x7f010086;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_progressiveStart_speed=0x7f010080;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_progressiveStop_speed=0x7f010081;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_reversed=0x7f010083;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_sections_count=0x7f01007e;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_speed=0x7f01007f;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_stroke_separator_length=0x7f01007d;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spb_stroke_width=0x7f01007c;
         /**  Default Spinner style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1157,36 +948,31 @@ containing a value of this type.
         public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f060004;
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060003;
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
-        public static final int spb_default_mirror_mode=0x7f060007;
-        public static final int spb_default_progressiveStart_activated=0x7f060008;
-        public static final int spb_default_reversed=0x7f060006;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070018;
+        public static final int abc_search_url_text_holo=0x7f070016;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
-        public static final int actionBarColor=0x7f07000b;
-        public static final int allnode_bg=0x7f070013;
-        public static final int allnode_content=0x7f070015;
-        public static final int allnode_tilte=0x7f070014;
-        public static final int background_tab_pressed=0x7f070006;
-        public static final int checkBoxBg=0x7f07000c;
-        public static final int content_bg=0x7f070011;
-        public static final int default_progress_bar_color=0x7f070003;
-        public static final int driver=0x7f070008;
-        public static final int ldrawer_color=0x7f070005;
-        public static final int newContent_bg=0x7f070017;
-        public static final int newfragment_bg=0x7f07000d;
-        public static final int newitem_textbg=0x7f07000e;
-        public static final int newitemtitle=0x7f07000f;
-        public static final int newitemuser=0x7f070010;
-        public static final int reply_bg=0x7f070012;
-        public static final int spb_default_color=0x7f070004;
-        public static final int userActionColor=0x7f07000a;
-        public static final int userMessageBg=0x7f070009;
-        public static final int user_message_bg=0x7f070016;
-        public static final int write=0x7f070007;
+        public static final int actionBarColor=0x7f070009;
+        public static final int allnode_bg=0x7f070011;
+        public static final int allnode_content=0x7f070013;
+        public static final int allnode_tilte=0x7f070012;
+        public static final int background_tab_pressed=0x7f070004;
+        public static final int checkBoxBg=0x7f07000a;
+        public static final int content_bg=0x7f07000f;
+        public static final int driver=0x7f070006;
+        public static final int ldrawer_color=0x7f070003;
+        public static final int newContent_bg=0x7f070015;
+        public static final int newfragment_bg=0x7f07000b;
+        public static final int newitem_textbg=0x7f07000c;
+        public static final int newitemtitle=0x7f07000d;
+        public static final int newitemuser=0x7f07000e;
+        public static final int reply_bg=0x7f070010;
+        public static final int userActionColor=0x7f070008;
+        public static final int userMessageBg=0x7f070007;
+        public static final int user_message_bg=0x7f070014;
+        public static final int write=0x7f070005;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1273,15 +1059,9 @@ containing a value of this type.
          */
         public static final int abc_search_view_text_min_width=0x7f08000c;
         /**  Default screen margins, per the Android Design guidelines. 
-
-         Example customization of dimensions originally defined in res/values/dimens.xml
-         (such as screen margins) for screens with more than 820dp of available width. This
-         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
-    
- Default screen margins, per the Android Design guidelines. 
          */
-        public static final int activity_horizontal_margin=0x7f080017;
-        public static final int activity_vertical_margin=0x7f080018;
+        public static final int activity_horizontal_margin=0x7f080015;
+        public static final int activity_vertical_margin=0x7f080016;
         /**  The platform's desired fixed height for a dialog along the major axis
          (the screen is in portrait). This may be either a fraction or a dimension.
  The platform's desired fixed height for a dialog along the major axis
@@ -1314,15 +1094,12 @@ containing a value of this type.
          (the screen is in portrait). This may be either a fraction or a dimension.
          */
         public static final int dialog_fixed_width_minor=0x7f080012;
-        public static final int ldrawer_barSize=0x7f08001b;
-        public static final int ldrawer_drawableSize=0x7f08001a;
-        public static final int ldrawer_gapBetweenBars=0x7f08001e;
-        public static final int ldrawer_middleBarArrowSize=0x7f08001f;
-        public static final int ldrawer_thickness=0x7f08001d;
-        public static final int ldrawer_topBottomBarArrowSize=0x7f08001c;
-        public static final int ptr_progress_bar_stroke_width=0x7f080019;
-        public static final int spb_default_stroke_separator_length=0x7f080015;
-        public static final int spb_default_stroke_width=0x7f080016;
+        public static final int ldrawer_barSize=0x7f080018;
+        public static final int ldrawer_drawableSize=0x7f080017;
+        public static final int ldrawer_gapBetweenBars=0x7f08001b;
+        public static final int ldrawer_middleBarArrowSize=0x7f08001c;
+        public static final int ldrawer_thickness=0x7f08001a;
+        public static final int ldrawer_topBottomBarArrowSize=0x7f080019;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -1436,167 +1213,157 @@ containing a value of this type.
         public static final int umeng_update_close_bg_tap=0x7f02006c;
     }
     public static final class id {
-        public static final int Content_Progress=0x7f0a007a;
-        public static final int Content_Scroll=0x7f0a0077;
-        public static final int action_bar=0x7f0a0029;
+        public static final int Content_Progress=0x7f0a0071;
+        public static final int Content_Scroll=0x7f0a006e;
+        public static final int action_bar=0x7f0a0020;
         public static final int action_bar_activity_content=0x7f0a0001;
-        public static final int action_bar_container=0x7f0a0028;
-        public static final int action_bar_overlay_layout=0x7f0a002c;
-        public static final int action_bar_root=0x7f0a0027;
-        public static final int action_bar_subtitle=0x7f0a0030;
-        public static final int action_bar_title=0x7f0a002f;
-        public static final int action_context_bar=0x7f0a002a;
+        public static final int action_bar_container=0x7f0a001f;
+        public static final int action_bar_overlay_layout=0x7f0a0023;
+        public static final int action_bar_root=0x7f0a001e;
+        public static final int action_bar_subtitle=0x7f0a0027;
+        public static final int action_bar_title=0x7f0a0026;
+        public static final int action_context_bar=0x7f0a0021;
         public static final int action_menu_divider=0x7f0a0002;
         public static final int action_menu_presenter=0x7f0a0003;
-        public static final int action_mode_close_button=0x7f0a0031;
-        public static final int action_settings=0x7f0a009e;
-        public static final int activity_chooser_view_content=0x7f0a0032;
-        public static final int activity_main_user=0x7f0a0051;
-        public static final int activitymain_setting=0x7f0a0062;
-        public static final int addcontenttopic=0x7f0a009d;
-        public static final int addtopic=0x7f0a009c;
-        public static final int all=0x7f0a0023;
-        public static final int allnode_progressbar=0x7f0a0057;
-        public static final int always=0x7f0a0012;
-        public static final int autotext=0x7f0a0065;
-        public static final int beginning=0x7f0a0019;
-        public static final int bottom=0x7f0a0024;
-        public static final int checkbox=0x7f0a003a;
-        public static final int collapseActionView=0x7f0a0013;
-        public static final int collect_content=0x7f0a0069;
-        public static final int collect_layout=0x7f0a0058;
-        public static final int collect_progressbar=0x7f0a005b;
-        public static final int collect_tip=0x7f0a005a;
-        public static final int collect_title=0x7f0a0068;
-        public static final int collectlist=0x7f0a0059;
-        public static final int commentcontent=0x7f0a007c;
-        public static final int contentFragment=0x7f0a006a;
-        public static final int content_comment=0x7f0a0078;
-        public static final int content_content=0x7f0a0071;
-        public static final int content_image=0x7f0a006c;
-        public static final int content_list=0x7f0a0079;
-        public static final int content_name=0x7f0a006d;
-        public static final int content_node=0x7f0a0070;
-        public static final int content_repley=0x7f0a006f;
-        public static final int content_reply_content=0x7f0a0075;
-        public static final int content_reply_image=0x7f0a0072;
-        public static final int content_reply_name=0x7f0a0073;
-        public static final int content_reply_time=0x7f0a0074;
-        public static final int content_time=0x7f0a006e;
-        public static final int content_title=0x7f0a006b;
-        public static final int default_activity_button=0x7f0a0035;
-        public static final int dialog=0x7f0a0017;
-        public static final int disableHome=0x7f0a000c;
-        public static final int drawer_item_image=0x7f0a007e;
-        public static final int drawer_item_nole=0x7f0a007f;
-        public static final int dropdown=0x7f0a0018;
-        public static final int edit_query=0x7f0a003d;
-        public static final int end=0x7f0a001a;
-        public static final int expand_activities_button=0x7f0a0033;
-        public static final int expanded_menu=0x7f0a0039;
-        public static final int header_image=0x7f0a008f;
+        public static final int action_mode_close_button=0x7f0a0028;
+        public static final int activity_chooser_view_content=0x7f0a0029;
+        public static final int activity_main_user=0x7f0a0048;
+        public static final int activitymain_setting=0x7f0a0059;
+        public static final int addcontenttopic=0x7f0a0094;
+        public static final int addtopic=0x7f0a0093;
+        public static final int all=0x7f0a001a;
+        public static final int allnode_progressbar=0x7f0a004e;
+        public static final int always=0x7f0a000f;
+        public static final int autotext=0x7f0a005c;
+        public static final int beginning=0x7f0a0016;
+        public static final int bottom=0x7f0a001b;
+        public static final int checkbox=0x7f0a0031;
+        public static final int collapseActionView=0x7f0a0010;
+        public static final int collect_content=0x7f0a0060;
+        public static final int collect_layout=0x7f0a004f;
+        public static final int collect_progressbar=0x7f0a0052;
+        public static final int collect_tip=0x7f0a0051;
+        public static final int collect_title=0x7f0a005f;
+        public static final int collectlist=0x7f0a0050;
+        public static final int commentcontent=0x7f0a0073;
+        public static final int contentFragment=0x7f0a0061;
+        public static final int content_comment=0x7f0a006f;
+        public static final int content_content=0x7f0a0068;
+        public static final int content_image=0x7f0a0063;
+        public static final int content_list=0x7f0a0070;
+        public static final int content_name=0x7f0a0064;
+        public static final int content_node=0x7f0a0067;
+        public static final int content_repley=0x7f0a0066;
+        public static final int content_reply_content=0x7f0a006c;
+        public static final int content_reply_image=0x7f0a0069;
+        public static final int content_reply_name=0x7f0a006a;
+        public static final int content_reply_time=0x7f0a006b;
+        public static final int content_time=0x7f0a0065;
+        public static final int content_title=0x7f0a0062;
+        public static final int default_activity_button=0x7f0a002c;
+        public static final int dialog=0x7f0a0014;
+        public static final int disableHome=0x7f0a0009;
+        public static final int drawer_item_image=0x7f0a0075;
+        public static final int drawer_item_nole=0x7f0a0076;
+        public static final int dropdown=0x7f0a0015;
+        public static final int edit_query=0x7f0a0034;
+        public static final int end=0x7f0a0017;
+        public static final int expand_activities_button=0x7f0a002a;
+        public static final int expanded_menu=0x7f0a0030;
+        public static final int header_image=0x7f0a0086;
         public static final int home=0x7f0a0000;
-        public static final int homeAsUp=0x7f0a000d;
-        public static final int icon=0x7f0a0037;
-        public static final int ifRoom=0x7f0a0014;
-        public static final int image=0x7f0a0034;
-        public static final int inside=0x7f0a001d;
-        public static final int left=0x7f0a0025;
-        public static final int linearpass=0x7f0a004a;
-        public static final int linearrepley=0x7f0a007b;
-        public static final int linearuser=0x7f0a0049;
-        public static final int listMode=0x7f0a0009;
-        public static final int list_item=0x7f0a0036;
-        public static final int login_bu=0x7f0a004c;
-        public static final int login_pass=0x7f0a004d;
-        public static final int login_user=0x7f0a004b;
-        public static final int mStaggeredGrid=0x7f0a0056;
-        public static final int mainActivity_fragment=0x7f0a004f;
-        public static final int main_setting=0x7f0a0055;
-        public static final int mainactivity_drawerLayout=0x7f0a004e;
-        public static final int mainactivity_list=0x7f0a0054;
-        public static final int mainactivity_userimage=0x7f0a0052;
-        public static final int mainactivity_username=0x7f0a0053;
-        public static final int menu_all_node_search=0x7f0a009f;
-        public static final int menu_linearlayout=0x7f0a0050;
-        public static final int middle=0x7f0a001b;
-        public static final int never=0x7f0a0015;
-        public static final int new_progressbar=0x7f0a005e;
-        public static final int newfragment_listview=0x7f0a005d;
-        public static final int newitem_content=0x7f0a0086;
-        public static final int newitem_image=0x7f0a0081;
-        public static final int newitem_name=0x7f0a0082;
-        public static final int newitem_node=0x7f0a0085;
-        public static final int newitem_repley=0x7f0a0084;
-        public static final int newitem_time=0x7f0a0083;
-        public static final int newitem_title=0x7f0a0080;
-        public static final int node_fragment_layout=0x7f0a0087;
-        public static final int node_fragment_list=0x7f0a0088;
-        public static final int node_item_add=0x7f0a008b;
-        public static final int node_item_content=0x7f0a008c;
-        public static final int node_item_remove=0x7f0a008a;
-        public static final int node_item_title=0x7f0a0089;
-        public static final int none=0x7f0a001c;
-        public static final int normal=0x7f0a000a;
-        public static final int outside=0x7f0a001e;
-        public static final int photoviewshow=0x7f0a008d;
+        public static final int homeAsUp=0x7f0a000a;
+        public static final int icon=0x7f0a002e;
+        public static final int ifRoom=0x7f0a0011;
+        public static final int image=0x7f0a002b;
+        public static final int left=0x7f0a001c;
+        public static final int linearpass=0x7f0a0041;
+        public static final int linearrepley=0x7f0a0072;
+        public static final int linearuser=0x7f0a0040;
+        public static final int listMode=0x7f0a0006;
+        public static final int list_item=0x7f0a002d;
+        public static final int login_bu=0x7f0a0043;
+        public static final int login_pass=0x7f0a0044;
+        public static final int login_user=0x7f0a0042;
+        public static final int mStaggeredGrid=0x7f0a004d;
+        public static final int mainActivity_fragment=0x7f0a0046;
+        public static final int main_setting=0x7f0a004c;
+        public static final int mainactivity_drawerLayout=0x7f0a0045;
+        public static final int mainactivity_list=0x7f0a004b;
+        public static final int mainactivity_userimage=0x7f0a0049;
+        public static final int mainactivity_username=0x7f0a004a;
+        public static final int menu_all_node_search=0x7f0a0095;
+        public static final int menu_linearlayout=0x7f0a0047;
+        public static final int middle=0x7f0a0018;
+        public static final int never=0x7f0a0012;
+        public static final int new_progressbar=0x7f0a0055;
+        public static final int newfragment_listview=0x7f0a0054;
+        public static final int newitem_content=0x7f0a007d;
+        public static final int newitem_image=0x7f0a0078;
+        public static final int newitem_name=0x7f0a0079;
+        public static final int newitem_node=0x7f0a007c;
+        public static final int newitem_repley=0x7f0a007b;
+        public static final int newitem_time=0x7f0a007a;
+        public static final int newitem_title=0x7f0a0077;
+        public static final int node_fragment_layout=0x7f0a007e;
+        public static final int node_fragment_list=0x7f0a007f;
+        public static final int node_item_add=0x7f0a0082;
+        public static final int node_item_content=0x7f0a0083;
+        public static final int node_item_remove=0x7f0a0081;
+        public static final int node_item_title=0x7f0a0080;
+        public static final int none=0x7f0a0019;
+        public static final int normal=0x7f0a0007;
+        public static final int photoviewshow=0x7f0a0084;
         public static final int progress_circular=0x7f0a0004;
         public static final int progress_horizontal=0x7f0a0005;
-        public static final int ptr_content=0x7f0a0006;
-        public static final int ptr_layout=0x7f0a005c;
-        public static final int ptr_layoutshow=0x7f0a0076;
-        public static final int ptr_layouttopic=0x7f0a005f;
-        public static final int ptr_progress=0x7f0a0008;
-        public static final int ptr_text=0x7f0a0007;
-        public static final int radio=0x7f0a003c;
-        public static final int reload_node=0x7f0a00a0;
-        public static final int right=0x7f0a0026;
-        public static final int scrollview=0x7f0a0090;
-        public static final int search_badge=0x7f0a003f;
-        public static final int search_bar=0x7f0a003e;
-        public static final int search_button=0x7f0a0040;
-        public static final int search_close_btn=0x7f0a0045;
-        public static final int search_edit_frame=0x7f0a0041;
-        public static final int search_go_btn=0x7f0a0047;
-        public static final int search_mag_icon=0x7f0a0042;
-        public static final int search_plate=0x7f0a0043;
-        public static final int search_src_text=0x7f0a0044;
-        public static final int search_voice_btn=0x7f0a0048;
-        public static final int sendComment=0x7f0a007d;
-        public static final int shortcut=0x7f0a003b;
-        public static final int showCustom=0x7f0a000e;
-        public static final int showHome=0x7f0a000f;
-        public static final int showTitle=0x7f0a0010;
-        public static final int spb_interpolator_accelerate=0x7f0a001f;
-        public static final int spb_interpolator_acceleratedecelerate=0x7f0a0020;
-        public static final int spb_interpolator_decelerate=0x7f0a0021;
-        public static final int spb_interpolator_linear=0x7f0a0022;
-        public static final int split_action_bar=0x7f0a002b;
-        public static final int submit_area=0x7f0a0046;
-        public static final int swipe=0x7f0a008e;
-        public static final int tabMode=0x7f0a000b;
-        public static final int title=0x7f0a0038;
-        public static final int top_action_bar=0x7f0a002d;
-        public static final int topic_progressbar=0x7f0a0061;
-        public static final int topicdriver=0x7f0a0064;
-        public static final int topicdriver2=0x7f0a0066;
-        public static final int topicfragment_topic=0x7f0a0060;
-        public static final int topicontent=0x7f0a0067;
-        public static final int topictitle=0x7f0a0063;
-        public static final int up=0x7f0a002e;
-        public static final int useLogo=0x7f0a0011;
-        public static final int user_bio=0x7f0a0093;
-        public static final int user_image=0x7f0a0094;
-        public static final int user_info=0x7f0a0092;
-        public static final int user_message_relate=0x7f0a0091;
-        public static final int user_name=0x7f0a0095;
-        public static final int usercontent_content=0x7f0a0098;
-        public static final int usercontent_driver=0x7f0a0099;
-        public static final int usercontent_node=0x7f0a009b;
-        public static final int usercontent_reply=0x7f0a009a;
-        public static final int usercontent_title=0x7f0a0097;
-        public static final int usermessage_linearlayout=0x7f0a0096;
-        public static final int withText=0x7f0a0016;
+        public static final int ptr_layout=0x7f0a0053;
+        public static final int ptr_layoutshow=0x7f0a006d;
+        public static final int ptr_layouttopic=0x7f0a0056;
+        public static final int radio=0x7f0a0033;
+        public static final int reload_node=0x7f0a0096;
+        public static final int right=0x7f0a001d;
+        public static final int scrollview=0x7f0a0087;
+        public static final int search_badge=0x7f0a0036;
+        public static final int search_bar=0x7f0a0035;
+        public static final int search_button=0x7f0a0037;
+        public static final int search_close_btn=0x7f0a003c;
+        public static final int search_edit_frame=0x7f0a0038;
+        public static final int search_go_btn=0x7f0a003e;
+        public static final int search_mag_icon=0x7f0a0039;
+        public static final int search_plate=0x7f0a003a;
+        public static final int search_src_text=0x7f0a003b;
+        public static final int search_voice_btn=0x7f0a003f;
+        public static final int sendComment=0x7f0a0074;
+        public static final int shortcut=0x7f0a0032;
+        public static final int showCustom=0x7f0a000b;
+        public static final int showHome=0x7f0a000c;
+        public static final int showTitle=0x7f0a000d;
+        public static final int split_action_bar=0x7f0a0022;
+        public static final int submit_area=0x7f0a003d;
+        public static final int swipe=0x7f0a0085;
+        public static final int tabMode=0x7f0a0008;
+        public static final int title=0x7f0a002f;
+        public static final int top_action_bar=0x7f0a0024;
+        public static final int topic_progressbar=0x7f0a0058;
+        public static final int topicdriver=0x7f0a005b;
+        public static final int topicdriver2=0x7f0a005d;
+        public static final int topicfragment_topic=0x7f0a0057;
+        public static final int topicontent=0x7f0a005e;
+        public static final int topictitle=0x7f0a005a;
+        public static final int up=0x7f0a0025;
+        public static final int useLogo=0x7f0a000e;
+        public static final int user_bio=0x7f0a008a;
+        public static final int user_image=0x7f0a008b;
+        public static final int user_info=0x7f0a0089;
+        public static final int user_message_relate=0x7f0a0088;
+        public static final int user_name=0x7f0a008c;
+        public static final int usercontent_content=0x7f0a008f;
+        public static final int usercontent_driver=0x7f0a0090;
+        public static final int usercontent_node=0x7f0a0092;
+        public static final int usercontent_reply=0x7f0a0091;
+        public static final int usercontent_title=0x7f0a008e;
+        public static final int usermessage_linearlayout=0x7f0a008d;
+        public static final int withText=0x7f0a0013;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1622,8 +1389,6 @@ containing a value of this type.
          showAsAction="ifRoom" items can fit. "always" items can override this. 
          */
         public static final int abc_max_action_buttons=0x7f090000;
-        public static final int spb_default_interpolator=0x7f090002;
-        public static final int spb_default_sections_count=0x7f090001;
     }
     public static final class layout {
         public static final int abc_action_bar_decor=0x7f030000;
@@ -1663,26 +1428,24 @@ containing a value of this type.
         public static final int content_header=0x7f030022;
         public static final int content_item=0x7f030023;
         public static final int content_show=0x7f030024;
-        public static final int default_header=0x7f030025;
-        public static final int drawer_item=0x7f030026;
-        public static final int newfragment_liem=0x7f030027;
-        public static final int node_fragment=0x7f030028;
-        public static final int node_item=0x7f030029;
-        public static final int photoview=0x7f03002a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
-        public static final int swipeback_layout=0x7f03002c;
-        public static final int user_message=0x7f03002d;
-        public static final int usercontent_item=0x7f03002e;
+        public static final int drawer_item=0x7f030025;
+        public static final int newfragment_liem=0x7f030026;
+        public static final int node_fragment=0x7f030027;
+        public static final int node_item=0x7f030028;
+        public static final int photoview=0x7f030029;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002a;
+        public static final int swipeback_layout=0x7f03002b;
+        public static final int user_message=0x7f03002c;
+        public static final int usercontent_item=0x7f03002d;
     }
     public static final class menu {
         public static final int addtopic=0x7f0e0000;
         public static final int finishadd=0x7f0e0001;
-        public static final int main=0x7f0e0002;
-        public static final int search=0x7f0e0003;
+        public static final int search=0x7f0e0002;
     }
     public static final class string {
-        public static final int DrawerClose=0x7f0b0048;
-        public static final int DrawerOpen=0x7f0b0047;
+        public static final int DrawerClose=0x7f0b003a;
+        public static final int DrawerOpen=0x7f0b0039;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0b0001;
@@ -1723,95 +1486,55 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
-        public static final int aboutinfo=0x7f0b0030;
-        public static final int aboutv2ex=0x7f0b002f;
-        public static final int action_settings=0x7f0b001d;
-        public static final int adderror=0x7f0b0041;
-        public static final int adding=0x7f0b0040;
-        public static final int addnode=0x7f0b0043;
-        public static final int addsuccess=0x7f0b0042;
-        public static final int app_name=0x7f0b001b;
-        public static final int author=0x7f0b0031;
-        public static final int authorname=0x7f0b0032;
-        public static final int comment=0x7f0b001e;
-        public static final int define_smoothprogressbar=0x7f0b000d;
-        public static final int hello_world=0x7f0b001c;
-        public static final int herTopic=0x7f0b001f;
-        public static final int key_tracking_mode=0x7f0b0046;
-        public static final int library_smoothprogressbar_author=0x7f0b000e;
-        public static final int library_smoothprogressbar_authorWebsite=0x7f0b000f;
-        public static final int library_smoothprogressbar_isOpenSource=0x7f0b0015;
-        public static final int library_smoothprogressbar_libraryDescription=0x7f0b0011;
-        public static final int library_smoothprogressbar_libraryName=0x7f0b0010;
-        public static final int library_smoothprogressbar_libraryVersion=0x7f0b0012;
-        public static final int library_smoothprogressbar_libraryWebsite=0x7f0b0013;
-        public static final int library_smoothprogressbar_licenseId=0x7f0b0014;
-        public static final int library_smoothprogressbar_repositoryLink=0x7f0b0016;
-        public static final int login=0x7f0b002b;
-        public static final int loginerror=0x7f0b0037;
-        public static final int logining=0x7f0b0036;
-        public static final int loginlogo=0x7f0b0028;
-        public static final int more=0x7f0b002e;
-        public static final int negative=0x7f0b0022;
-        public static final int nodenull=0x7f0b0045;
-        public static final int notCollectNode=0x7f0b0026;
-        public static final int passnull=0x7f0b0034;
-        public static final int password=0x7f0b002a;
-        public static final int posititve=0x7f0b0021;
-        public static final int pull_to_refresh_pull_label=0x7f0b0018;
-        public static final int pull_to_refresh_refreshing_label=0x7f0b001a;
-        public static final int pull_to_refresh_release_label=0x7f0b0019;
-        public static final int removeerror=0x7f0b0025;
-        public static final int removenode=0x7f0b0024;
-        public static final int repley=0x7f0b0038;
-        public static final int repleyfail=0x7f0b003c;
-        public static final int repleying=0x7f0b003d;
-        public static final int repleynull=0x7f0b003b;
-        public static final int repleysuccess=0x7f0b003a;
-        public static final int setting=0x7f0b0020;
-        public static final int spb_default_speed=0x7f0b0017;
-        public static final int tips=0x7f0b0023;
-        public static final int topicnull=0x7f0b0044;
-        public static final int updateagain=0x7f0b0027;
-        public static final int updateing=0x7f0b0035;
-        public static final int updateuserinfo=0x7f0b002d;
-        public static final int userlogin=0x7f0b002c;
-        public static final int username=0x7f0b0029;
-        public static final int usernull=0x7f0b0033;
-        public static final int writecontent=0x7f0b003f;
-        public static final int writerepley=0x7f0b0039;
-        public static final int writetopic=0x7f0b003e;
+        public static final int aboutinfo=0x7f0b0022;
+        public static final int aboutv2ex=0x7f0b0021;
+        public static final int action_settings=0x7f0b000f;
+        public static final int adderror=0x7f0b0033;
+        public static final int adding=0x7f0b0032;
+        public static final int addnode=0x7f0b0035;
+        public static final int addsuccess=0x7f0b0034;
+        public static final int app_name=0x7f0b000d;
+        public static final int author=0x7f0b0023;
+        public static final int authorname=0x7f0b0024;
+        public static final int comment=0x7f0b0010;
+        public static final int hello_world=0x7f0b000e;
+        public static final int herTopic=0x7f0b0011;
+        public static final int key_tracking_mode=0x7f0b0038;
+        public static final int login=0x7f0b001d;
+        public static final int loginerror=0x7f0b0029;
+        public static final int logining=0x7f0b0028;
+        public static final int loginlogo=0x7f0b001a;
+        public static final int more=0x7f0b0020;
+        public static final int negative=0x7f0b0014;
+        public static final int nodenull=0x7f0b0037;
+        public static final int notCollectNode=0x7f0b0018;
+        public static final int passnull=0x7f0b0026;
+        public static final int password=0x7f0b001c;
+        public static final int posititve=0x7f0b0013;
+        public static final int removeerror=0x7f0b0017;
+        public static final int removenode=0x7f0b0016;
+        public static final int repley=0x7f0b002a;
+        public static final int repleyfail=0x7f0b002e;
+        public static final int repleying=0x7f0b002f;
+        public static final int repleynull=0x7f0b002d;
+        public static final int repleysuccess=0x7f0b002c;
+        public static final int setting=0x7f0b0012;
+        public static final int tips=0x7f0b0015;
+        public static final int topicnull=0x7f0b0036;
+        public static final int updateagain=0x7f0b0019;
+        public static final int updateing=0x7f0b0027;
+        public static final int updateuserinfo=0x7f0b001f;
+        public static final int userlogin=0x7f0b001e;
+        public static final int username=0x7f0b001b;
+        public static final int usernull=0x7f0b0025;
+        public static final int writecontent=0x7f0b0031;
+        public static final int writerepley=0x7f0b002b;
+        public static final int writetopic=0x7f0b0030;
     }
     public static final class style {
-        /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
-    
- API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
-         */
         public static final int AppBaseTheme=0x7f0c008b;
-        /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f0c008c;
-        public static final int SPB=0x7f0c008e;
-        public static final int SmoothProgressBar=0x7f0c008f;
-        public static final int SwipeBackLayout=0x7f0c0090;
+        public static final int SwipeBackLayout=0x7f0c008d;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0c0063;
@@ -1920,7 +1643,6 @@ containing a value of this type.
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
         public static final int Theme_Base_Light=0x7f0c007f;
-        public static final int Theme_SmoothProgressBarDefaults=0x7f0c008d;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -3166,7 +2888,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x0101052f
+            0x0101012f, 0x01010130, 0x01010131, 0x01010438
         };
         /**
           <p>
@@ -3254,7 +2976,7 @@ containing a value of this type.
            @see #PullScrollView_headerVisibleHeight
          */
         public static final int[] PullScrollView = {
-            0x7f010093, 0x7f010094, 0x7f010095
+            0x7f010077, 0x7f010078, 0x7f010079
         };
         /**
           <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#header}
@@ -3298,205 +3020,6 @@ containing a value of this type.
           @attr name com.jack.v2ex:headerVisibleHeight
         */
         public static final int PullScrollView_headerVisibleHeight = 2;
-        /** Attributes that can be used with a PullToRefreshHeader.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderBackground com.jack.v2ex:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header View </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderHeight com.jack.v2ex:ptrHeaderHeight}</code></td><td> The height of the Header View </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrHeaderTitleTextAppearance com.jack.v2ex:ptrHeaderTitleTextAppearance}</code></td><td> The Text Appearance of the Header View's Title text </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarColor com.jack.v2ex:ptrProgressBarColor}</code></td><td> The color that the Progress Bar should be tinted with </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarHeight com.jack.v2ex:ptrProgressBarHeight}</code></td><td> The height of the Progress Bar </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrProgressBarStyle com.jack.v2ex:ptrProgressBarStyle}</code></td><td> The style of the Progress Bar </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrPullText com.jack.v2ex:ptrPullText}</code></td><td> Text to show to prompt the user is pull (or keep pulling) </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrRefreshingText com.jack.v2ex:ptrRefreshingText}</code></td><td> Text to show to tell the user that a refresh is currently in progress </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrReleaseText com.jack.v2ex:ptrReleaseText}</code></td><td> Text to show to tell the user has scrolled enough to refresh </td></tr>
-           <tr><td><code>{@link #PullToRefreshHeader_ptrSmoothProgressBarStyle com.jack.v2ex:ptrSmoothProgressBarStyle}</code></td><td>indeterminate progressbar style</td></tr>
-           </table>
-           @see #PullToRefreshHeader_ptrHeaderBackground
-           @see #PullToRefreshHeader_ptrHeaderHeight
-           @see #PullToRefreshHeader_ptrHeaderTitleTextAppearance
-           @see #PullToRefreshHeader_ptrProgressBarColor
-           @see #PullToRefreshHeader_ptrProgressBarHeight
-           @see #PullToRefreshHeader_ptrProgressBarStyle
-           @see #PullToRefreshHeader_ptrPullText
-           @see #PullToRefreshHeader_ptrRefreshingText
-           @see #PullToRefreshHeader_ptrReleaseText
-           @see #PullToRefreshHeader_ptrSmoothProgressBarStyle
-         */
-        public static final int[] PullToRefreshHeader = {
-            0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073,
-            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
-            0x7f010078, 0x7f010079
-        };
-        /**
-          <p>
-          @attr description
-           A drawable to use as the background of the Header View 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrHeaderBackground
-        */
-        public static final int PullToRefreshHeader_ptrHeaderBackground = 0;
-        /**
-          <p>
-          @attr description
-           The height of the Header View 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrHeaderHeight
-        */
-        public static final int PullToRefreshHeader_ptrHeaderHeight = 1;
-        /**
-          <p>
-          @attr description
-           The Text Appearance of the Header View's Title text 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrHeaderTitleTextAppearance
-        */
-        public static final int PullToRefreshHeader_ptrHeaderTitleTextAppearance = 2;
-        /**
-          <p>
-          @attr description
-           The color that the Progress Bar should be tinted with 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrProgressBarColor
-        */
-        public static final int PullToRefreshHeader_ptrProgressBarColor = 3;
-        /**
-          <p>
-          @attr description
-           The height of the Progress Bar 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrProgressBarHeight
-        */
-        public static final int PullToRefreshHeader_ptrProgressBarHeight = 5;
-        /**
-          <p>
-          @attr description
-           The style of the Progress Bar 
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>inside</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>outside</code></td><td>0x1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrProgressBarStyle
-        */
-        public static final int PullToRefreshHeader_ptrProgressBarStyle = 4;
-        /**
-          <p>
-          @attr description
-           Text to show to prompt the user is pull (or keep pulling) 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrPullText
-        */
-        public static final int PullToRefreshHeader_ptrPullText = 6;
-        /**
-          <p>
-          @attr description
-           Text to show to tell the user that a refresh is currently in progress 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrRefreshingText
-        */
-        public static final int PullToRefreshHeader_ptrRefreshingText = 7;
-        /**
-          <p>
-          @attr description
-           Text to show to tell the user has scrolled enough to refresh 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrReleaseText
-        */
-        public static final int PullToRefreshHeader_ptrReleaseText = 8;
-        /**
-          <p>
-          @attr description
-          indeterminate progressbar style
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrSmoothProgressBarStyle
-        */
-        public static final int PullToRefreshHeader_ptrSmoothProgressBarStyle = 9;
-        /** Attributes that can be used with a PullToRefreshView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefreshView_ptrViewDelegateClass com.jack.v2ex:ptrViewDelegateClass}</code></td><td> The class to use as a View's View Delegate.</td></tr>
-           </table>
-           @see #PullToRefreshView_ptrViewDelegateClass
-         */
-        public static final int[] PullToRefreshView = {
-            0x7f01006e
-        };
-        /**
-          <p>
-          @attr description
-           The class to use as a View's View Delegate. Can be relative path from app's package name 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          <p>This is a private symbol.
-          @attr name com.jack.v2ex:ptrViewDelegateClass
-        */
-        public static final int PullToRefreshView_ptrViewDelegateClass = 0;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -3579,274 +3102,6 @@ containing a value of this type.
           @attr name com.jack.v2ex:queryHint
         */
         public static final int SearchView_queryHint = 4;
-        /** Attributes that can be used with a SmoothProgressBar.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spbStyle com.jack.v2ex:spbStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_background com.jack.v2ex:spb_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_color com.jack.v2ex:spb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_colors com.jack.v2ex:spb_colors}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_generate_background_with_colors com.jack.v2ex:spb_generate_background_with_colors}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_gradients com.jack.v2ex:spb_gradients}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_interpolator com.jack.v2ex:spb_interpolator}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_mirror_mode com.jack.v2ex:spb_mirror_mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStart_activated com.jack.v2ex:spb_progressiveStart_activated}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStart_speed com.jack.v2ex:spb_progressiveStart_speed}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_progressiveStop_speed com.jack.v2ex:spb_progressiveStop_speed}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_reversed com.jack.v2ex:spb_reversed}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_sections_count com.jack.v2ex:spb_sections_count}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_speed com.jack.v2ex:spb_speed}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_separator_length com.jack.v2ex:spb_stroke_separator_length}</code></td><td></td></tr>
-           <tr><td><code>{@link #SmoothProgressBar_spb_stroke_width com.jack.v2ex:spb_stroke_width}</code></td><td></td></tr>
-           </table>
-           @see #SmoothProgressBar_spbStyle
-           @see #SmoothProgressBar_spb_background
-           @see #SmoothProgressBar_spb_color
-           @see #SmoothProgressBar_spb_colors
-           @see #SmoothProgressBar_spb_generate_background_with_colors
-           @see #SmoothProgressBar_spb_gradients
-           @see #SmoothProgressBar_spb_interpolator
-           @see #SmoothProgressBar_spb_mirror_mode
-           @see #SmoothProgressBar_spb_progressiveStart_activated
-           @see #SmoothProgressBar_spb_progressiveStart_speed
-           @see #SmoothProgressBar_spb_progressiveStop_speed
-           @see #SmoothProgressBar_spb_reversed
-           @see #SmoothProgressBar_spb_sections_count
-           @see #SmoothProgressBar_spb_speed
-           @see #SmoothProgressBar_spb_stroke_separator_length
-           @see #SmoothProgressBar_spb_stroke_width
-         */
-        public static final int[] SmoothProgressBar = {
-            0x7f01007a, 0x7f01007b, 0x7f01007c, 0x7f01007d,
-            0x7f01007e, 0x7f01007f, 0x7f010080, 0x7f010081,
-            0x7f010082, 0x7f010083, 0x7f010084, 0x7f010085,
-            0x7f010086, 0x7f010087, 0x7f010088, 0x7f010089
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spbStyle}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jack.v2ex:spbStyle
-        */
-        public static final int SmoothProgressBar_spbStyle = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_background}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jack.v2ex:spb_background
-        */
-        public static final int SmoothProgressBar_spb_background = 13;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_color}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_color
-        */
-        public static final int SmoothProgressBar_spb_color = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_colors}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jack.v2ex:spb_colors
-        */
-        public static final int SmoothProgressBar_spb_colors = 11;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_generate_background_with_colors}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_generate_background_with_colors
-        */
-        public static final int SmoothProgressBar_spb_generate_background_with_colors = 14;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_gradients}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_gradients
-        */
-        public static final int SmoothProgressBar_spb_gradients = 15;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_interpolator}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>spb_interpolator_accelerate</code></td><td>0</td><td></td></tr>
-<tr><td><code>spb_interpolator_linear</code></td><td>1</td><td></td></tr>
-<tr><td><code>spb_interpolator_acceleratedecelerate</code></td><td>2</td><td></td></tr>
-<tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
-</table>
-          @attr name com.jack.v2ex:spb_interpolator
-        */
-        public static final int SmoothProgressBar_spb_interpolator = 8;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_mirror_mode}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_mirror_mode
-        */
-        public static final int SmoothProgressBar_spb_mirror_mode = 10;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_progressiveStart_activated}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_progressiveStart_activated
-        */
-        public static final int SmoothProgressBar_spb_progressiveStart_activated = 12;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_progressiveStart_speed}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_progressiveStart_speed
-        */
-        public static final int SmoothProgressBar_spb_progressiveStart_speed = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_progressiveStop_speed}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_progressiveStop_speed
-        */
-        public static final int SmoothProgressBar_spb_progressiveStop_speed = 7;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_reversed}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_reversed
-        */
-        public static final int SmoothProgressBar_spb_reversed = 9;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_sections_count}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_sections_count
-        */
-        public static final int SmoothProgressBar_spb_sections_count = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_speed}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_speed
-        */
-        public static final int SmoothProgressBar_spb_speed = 5;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_stroke_separator_length}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_stroke_separator_length
-        */
-        public static final int SmoothProgressBar_spb_stroke_separator_length = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#spb_stroke_width}
-          attribute's value can be found in the {@link #SmoothProgressBar} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.jack.v2ex:spb_stroke_width
-        */
-        public static final int SmoothProgressBar_spb_stroke_width = 2;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -4018,7 +3273,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #StaggeredGridView_numColumns
          */
         public static final int[] StaggeredGridView = {
-            0x7f01008f, 0x7f010090, 0x7f010091
+            0x7f010073, 0x7f010074, 0x7f010075
         };
         /**
           <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#drawSelectorOnTop}
@@ -4083,8 +3338,8 @@ containing a value of this type.
            @see #SwipeBackLayout_shadow_right
          */
         public static final int[] SwipeBackLayout = {
-            0x7f01008a, 0x7f01008b, 0x7f01008c, 0x7f01008d,
-            0x7f01008e
+            0x7f01006e, 0x7f01006f, 0x7f010070, 0x7f010071,
+            0x7f010072
         };
         /**
           <p>This symbol is the offset where the {@link com.jack.v2ex.R.attr#edge_flag}

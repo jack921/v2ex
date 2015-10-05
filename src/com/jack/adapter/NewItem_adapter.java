@@ -36,8 +36,10 @@ public class NewItem_adapter extends ArrayAdapter<DataObject>{
 		imageLoader=new ImageLoader(MainActivity.mQueue,new BitmapCache());
 		dataFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		date=new Date();
-		if(objects.get(0).getTime()!=null){
-		time=getTime(objects.get(0));
+		if(objects.get(0)!=null){
+			if(objects.get(0).getTime()!=null){
+				time=getTime(objects.get(0));
+			}
 		}
 	}
 
