@@ -7,6 +7,8 @@
 可以通过点击帖子的头像获取发帖人所发的所有帖子，并且进入查看任意的帖子和评论<br>
 帖子的内容可以是文字和图片一起显示的<br>
 
-更多的视图在视图文件夹里哦
+更多的视图在视图文件夹里哦<br>
+
+(重要！！！要运行此代码还要下载我的github的ActionBarRefreshLibrary这个demo作库引用,因为我下拉刷新就是用这个的)<br>
 
 ![效果图](https://github.com/jack921/v2ex/blob/master/%E8%A7%86%E5%9B%BE/GIF2.gif)  
